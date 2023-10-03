@@ -7,8 +7,8 @@ APPDATA = os.getenv("APPDATA")
 LOCALAPPDATA = os.getenv("LOCALAPPDATA")
 TEMP = os.getenv("TEMP")
 
-guild_id = ""
-token = ""
+guild_id = "" # ID DO CANAL/SERVER
+token = "" # TOKEN DO BOT
 
 def get_processor():
     stdout = subprocess.Popen(
